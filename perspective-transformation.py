@@ -59,4 +59,4 @@ imagem_transformada = cv2.warpPerspective(img, H, (largura, altura))
 saida_nome = f"{caso}_transformado.jpg"
 cv2.imwrite(f"results/{saida_nome}", imagem_transformada)
 
-print(f"Imagem transformada salva como '{saida_nome}' ({largura}x{altura})")
+print(f"Imagem transformada: '{saida_nome}' ({largura}x{altura})")
